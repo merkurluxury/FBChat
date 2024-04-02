@@ -5,18 +5,7 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 import {getFirestore, collection} from 'firebase/firestore'
 
 
-// 1. create new project on firebase console
-// 2. enable email and password auth provider in authentication
-// 3. create a web app and copy the firebseConfigs below 
-
-const firebaseConfig = {
-  apiKey: "AIzaSyBrQ4j977bl9iPSuZ0VEL6fPTd4SxqQrRU",
-  authDomain: "userchat-d3fcd.firebaseapp.com",
-  projectId: "userchat-d3fcd",
-  storageBucket: "userchat-d3fcd.appspot.com",
-  messagingSenderId: "747852146185",
-  appId: "1:747852146185:web:b1d40c36964c8245253ad8"
-};
+//Config Bilgileri Gelecek
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
